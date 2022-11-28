@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.omoss-main{
+
+    font-family: 'Work Sans', sans-serif;
+
+    h1{
+        text-align: center;
+        padding-top: 20px;
+        color: green;
+    }
+
+
+    .sektion1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        padding-bottom: 30vh;
+        padding-top: 1rem;
+        
+        .bild-fakta{
+            align-self: center;
+            
+        }
+
+        .text-om-oss{
+            margin-top: 20px;
+            
+            h2{
+                color: green;
+            }
+        }
+
+        img{
+            height: 330px;
+            width: 450px;
+            position: relative;
+            top: 30px;
+            
+        }
+
+        .faktaruta {
+            background-color: rgb(206, 206, 206);
+            padding: 20px;
+            margin-top: 50px;
+            max-width: 380px;
+
+            ul li{
+                margin: 1rem;
+            }
+
+            
+        }
+
+    }
+
+    .sektion2{
+        background-color: rgb(52, 117, 52);
+        
+
+        .team{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3{
+            text-align: center;
+            padding: 20px;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        p{
+            color: white;
+        }
+
+        .personal-team{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid white;
+            margin: 20px;
+            padding: 20px;
+            width: 150px;
+            height:320px;
+            text-align: center;
+
+            img{
+                height: 130px;
+                width: 80px;
+                border-radius: 100%;
+                align-self: center;
+                margin-bottom: 20px;
+            }
+
+            a{
+                color: white;
+            }
+        }
+        
+
+        .team{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .team-uppe{
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+        }
+
+        .team-nere{
+            display: flex;
+            flex-direction: row;
+
+            .bild-tjej{
+                height: 90px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.omoss-main {
+  font-family: "Work Sans", sans-serif;
+}
+.omoss-main h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: green;
+}
+.omoss-main .sektion1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding-bottom: 30vh;
+  padding-top: 1rem;
+}
+.omoss-main .sektion1 .bild-fakta {
+  align-self: center;
+}
+.omoss-main .sektion1 .text-om-oss {
+  margin-top: 20px;
+}
+.omoss-main .sektion1 .text-om-oss h2 {
+  color: green;
+}
+.omoss-main .sektion1 img {
+  height: 330px;
+  width: 450px;
+  position: relative;
+  top: 30px;
+}
+.omoss-main .sektion1 .faktaruta {
+  background-color: rgb(206, 206, 206);
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 380px;
+}
+.omoss-main .sektion1 .faktaruta ul li {
+  margin: 1rem;
+}
+.omoss-main .sektion2 {
+  background-color: rgb(52, 117, 52);
+}
+.omoss-main .sektion2 .team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.omoss-main .sektion2 h3 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 1.5rem;
+}
+.omoss-main .sektion2 p {
+  color: white;
+}
+.omoss-main .sektion2 .personal-team {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: 20px;
+  padding: 20px;
+  width: 150px;
+  height: 320px;
+  text-align: center;
+}
+.omoss-main .sektion2 .personal-team img {
+  height: 130px;
+  width: 80px;
+  border-radius: 100%;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.omoss-main .sektion2 .personal-team a {
+  color: white;
+}
+.omoss-main .sektion2 .team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.omoss-main .sektion2 .team-uppe {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.omoss-main .sektion2 .team-nere {
+  display: flex;
+  flex-direction: row;
+}
+.omoss-main .sektion2 .team-nere .bild-tjej {
+  height: 90px;
+}/*# sourceMappingURL=style.css.map */
